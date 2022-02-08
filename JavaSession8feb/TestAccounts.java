@@ -45,4 +45,12 @@ Invalid Amount Entered
 Enter the amount to withdraw:
 30
 
+Another Output:
+Enter the amount to be deposited: 
+5000
+Balance in your account is: 10000.0
+Enter the amount to withdraw: 
+2000
+Balance in your account after the withdrawal is : 8000.0
+
  */
