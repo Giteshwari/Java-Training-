@@ -26,3 +26,12 @@ Hey There
 *****In PrintWriterOutput.Txt File ********
 Giteshwari Here !
  */
+
+
+/*
+we Must Close Streams as Streams represents resourse Which we must clean by calling close()
+method.
+some classes include flush Method. There may be resource leak if the application keep running over
+and over the OS will eventually run out of Stream which could look up the system and required a 
+reboot. A stream may retain a hold on limited System resources until closed
+*/
