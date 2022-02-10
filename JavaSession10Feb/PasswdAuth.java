@@ -58,6 +58,6 @@ Checking command-line password
 Password matches.
 Access granted!
 
-"A PasswdAuth file created with content Updated..."
+"A PasswdAuth.txt file got created with content Updated..."
 
 */
