@@ -106,8 +106,8 @@ Elements in list: Gita
 Elements in list: null
 Elements in list: Rita
 
-
 //poped last entered element//
+
 Stack===>
                 1.Null: allowed
                 2.duplicates: allowed
