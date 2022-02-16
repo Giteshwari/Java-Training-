@@ -53,3 +53,19 @@ public class ComparableAssignment {
         }
     }
 }
+
+/*
+Output:
+BEFORE SORTING 
+Employee2{id=1, name='Ak', Salary=20000.0}
+Employee2{id=6, name='Fk', Salary=14999.0}
+Employee2{id=2, name='Bk', Salary=15000.0}
+Employee2{id=4, name='DK', Salary=50000.0}
+Employee2{id=3, name='Ck', Salary=10000.0}
+Employee2{id=5, name='Ek', Salary=7000.0}
+
+AFTER SORTING BY NAME USING COMPARABLE
+Employee2{id=1, name='Ak', Salary=20000.0}
+Employee2{id=4, name='DK', Salary=50000.0}
+
+ */
