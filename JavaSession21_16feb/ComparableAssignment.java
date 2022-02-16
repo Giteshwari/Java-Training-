@@ -44,7 +44,7 @@ public class ComparableAssignment {
             System.out.println(list.get(i));
         }
         System.out.println();
-        System.out.println("AFTER SORTING BY NAME USING COMPARABLE");
+        System.out.println("After Sorting by Salary , salary Grater than 15000");
         Collections.sort(list);
         for (Employee1 e : list) {
             if (e.Salary > 15000)
@@ -64,7 +64,7 @@ Employee2{id=4, name='DK', Salary=50000.0}
 Employee2{id=3, name='Ck', Salary=10000.0}
 Employee2{id=5, name='Ek', Salary=7000.0}
 
-AFTER SORTING BY NAME USING COMPARABLE
+After Sorting by Salary , salary Grater than 15000
 Employee2{id=1, name='Ak', Salary=20000.0}
 Employee2{id=4, name='DK', Salary=50000.0}
 
