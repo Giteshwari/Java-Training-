@@ -1,1 +1,5 @@
+<Select> And <Datalist>
 
+both the tags are used for choosing an option from the given list.
+But the main difference between both is that in the <datalist> tag the user can enter its own input and add that
+as an option with the help of the <input> element whereas the <select> tag doesn’t provide this feature.
