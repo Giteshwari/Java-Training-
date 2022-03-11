@@ -5,12 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Display image on choice</title>
-<style>
-	img {
-		height: 50%;
-		width: 50%; 
-	}
-</style>
+
 
 </head>
 <body>
@@ -27,7 +22,8 @@
 	<%
 		String animals = request.getParameter("animals");
 	%>
-<iframe src="C:\Users\Coditas\Downloads\<%=animals%>.jpg" height="600px" width="800px" ></iframe>
+<iframe src="C:\Users\Coditas\Downloads\<%=animals%>.jpg" width="800" height="1000" border="0" frameborder="0"  scrolling="no"></iframe>
+<audio controls src="C:\Users\Coditas\Downloads\<%=animals%>.mp3"></audio>
 
 
 
