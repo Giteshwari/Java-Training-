@@ -69,6 +69,39 @@ public class MainApplication
         }
 
         em.getTransaction().commit();
+        
+        
+        
+        System.out.println("**********Aggregate*****");
+
+        System.out.println("*********Min***********");
+        Query query1 =em.createQuery("Select MIN(e.salary) from Teacher e");
+        Double result =(Double) query1.getSingleResult();
+        System.out.println("Min Teacher Salary:"+result);
+
+        System.out.println("**********MAX*****");
+        Query query4 =em.createQuery("Select MAX(e.salary) from Teacher e");
+        Double result1 =(Double) query4.getSingleResult();
+        System.out.println("Max Teacher Salary:"+result1);
+
+
+        System.out.println("**********Like*******");
+
+        Query query2 = em.createQuery("select t from Teacher t where t.name LIKE 'G%' ");
+        List<Teacher> list3 =(List<Teacher>) query2.getResultList();
+        for (Teacher tea:list3)
+              {
+                  System.out.println("teacher_name:    "+tea.getName());
+              }
+
+
+        System.out.println("**********Between *************");
+        Query query3 = em.createQuery("select b from Teacher b where b.salary BETWEEN 8000 AND 80000 ");
+        List<Teacher> list4 =(List<Teacher>) query3.getResultList();
+        for (Teacher t1:list4)
+        {
+            System.out.println(t1);
+        }
 
     }
 }
