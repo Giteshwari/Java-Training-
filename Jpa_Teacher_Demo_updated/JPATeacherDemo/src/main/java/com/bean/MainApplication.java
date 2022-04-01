@@ -26,7 +26,7 @@ public class MainApplication
         do{
         System.out.println("Enter Your Choice: ");
         System.out.println("1.Insert\n2.Fetch\n3.fetch selected columns\n4.Descending records\n5.Aggregate-Min" +
-                "\n6.Max\n7.like\n8.between\n9.Update\n10.Exit");
+                "\n6.Max\n7.like\n8.between\n9.Update\n10.Delete\n11.Exit");
         ch = Integer.parseInt(br.readLine());
 
 
@@ -126,7 +126,7 @@ public class MainApplication
 
             case 10:
                 System.out.println("************Delete Record**********");
-                TeacherDao.DeleteRecords();
+                TeacherDao.DeleteRecords(10000);
 
             case 11:
                 System.out.println("Thank you for using our Application");
