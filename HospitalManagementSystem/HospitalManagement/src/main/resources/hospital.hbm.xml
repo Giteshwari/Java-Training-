@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class table="Hospitals_table" name="com.bean.Hospital">
+        <id name = "lic_no" > </id>
+        <property name="hos_name"></property>
+
+        <list name="doctorsList" cascade="all">
+            <key column="hospital_id"></key>
+            <index column="idx"></index>
+            <one-to-many class="com.bean.Doctors"/>
+        </list>
+
+    </class>
+
+    <class table="Doctors_Table" name="com.bean.Doctors">
+        <id name="doc_id"></id>
+        <property name="doc_name"></property>
+        <property name="experience"></property>
+        <property name="Specialization"></property>
+        <property name="type_emp"></property>
+        <property name="ph_no"></property>
+        <property name="shift"></property>
+
+        <list name="patientsList" cascade="all">
+            <key column="doctors_id"></key>
+            <index column="idx2"></index>
+            <many-to-many class="com.bean.Patients" column="patient_id"/>
+        </list>
+
+        <list name="staffList" cascade="all">
+            <key column="staffList"></key>
+            <index column="idx3"></index>
+            <many-to-many class="com.bean.Staff" column="staff_id"/>
+        </list>
+    </class>
+
+    <class table="Staff_table" name="com.bean.Staff">
+        <id name="st_id"></id>
+        <property name="st_name"></property>
+        <property name="qualification"></property>
+        <property name="experience"></property>
+        <property name="ph_no"></property>
+        <property name="shift"></property>
+    </class>
+
+    <class table="Patients_Table" name="com.bean.Patients">
+        <id name="pt_id"></id>
+        <property name="name"></property>
+        <property name="ph_no"></property>
+        <property name="blood_type"></property>
+        <property name="date_of_admi"></property>
+        <property name="due_date"></property>
+    </class>
+
+</hibernate-mapping>
