@@ -1,0 +1,13 @@
+Inside Triangle
+PointA is (2,3)
+PointB is (2,7)
+PointC is (3,7)
+Area od Triangle is: 25.0
+
+Inside Circle
+radius of circle is: 3.5 And Center of circle can be given as: (2,3)
+Area of Circle is: 76.93
+
+Inside Rectangle
+Length and breadth of rectangle is: 4,8
+Area of Rectangle is: 32
