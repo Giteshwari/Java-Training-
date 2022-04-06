@@ -1,0 +1,10 @@
+************Batch Information **************
+
+com.bean.Batch code: 1 Name of Course: Maths
+Student's List is: 
+Student{name='Gita', qualification='abc', percentage=78.8}
+Student{name='Sita', qualification='def', percentage=91.5}
+Student{name='Rushita', qualification='ghi', percentage=60.5}
+true
+false
+true
