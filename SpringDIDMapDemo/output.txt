@@ -1,0 +1,7 @@
+Output:
+DID season name Season1
+bb
+cc
+Participants{name='Gita', Address='abc'}----->team1
+Participants{name='Sita', Address='def'}----->team2
+Participants{name='Rushita', Address='ghi'}----->team3
