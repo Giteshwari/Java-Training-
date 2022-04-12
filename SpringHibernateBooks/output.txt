@@ -1,0 +1,16 @@
+Insert:
++-----+-------------------+---------------+-------+
+| bid | authorName        | bookName      | price |
++-----+-------------------+---------------+-------+
+|   8 | Tilak             | GitaRahasya   |   123 |
+|   9 | Ankur Wariko      | Do Epic Shit  |   234 |
+|  10 | A.P.J.Abdul Kalam | Wings of Fire |   345 |
++-----+-------------------+---------------+-------+
+Updated:
++-----+-------------------+---------------+-------+
+| bid | authorName        | bookName      | price |
++-----+-------------------+---------------+-------+
+|   8 | Tilak             | GitaRahasya   |   123 |
+|   9 | Ankur Wariko      | Do Epic Shit  |   400 |
+|  10 | A.P.J.Abdul Kalam | Wings of Fire |   345 |
++-----+-------------------+---------------+-------+
