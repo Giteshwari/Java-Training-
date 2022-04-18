@@ -1,0 +1,39 @@
+Inserted Data:
+mysql> select * from spring_hibernate_movie;
++----+------------+---------------+---------------------+
+| id | collection | director_name | name                |
++----+------------+---------------+---------------------+
+| 14 |        200 | Rohit Shetty  | Golmaal             |
+| 15 |        300 | Rohit Shetty  | Singham             |
+| 16 |        400 | Karan Johar   | K3G                 |
+| 17 |        500 | Karan Johar   | Student of the year |
+| 18 |        100 | karan Johar   | SOTY2               |
+| 19 |        500 | XYZ           | YJHD                |
++----+------------+---------------+---------------------+
+
+Updated data: 
+From YJHD Collection 500 to 800 :-
+mysql> select * from spring_hibernate_movie;
++----+------------+---------------+---------------------+
+| id | collection | director_name | name                |
++----+------------+---------------+---------------------+
+| 14 |        200 | Rohit Shetty  | Golmaal             |
+| 15 |        300 | Rohit Shetty  | Singham             |
+| 16 |        400 | Karan Johar   | K3G                 |
+| 17 |        500 | Karan Johar   | Student of the year |
+| 18 |        100 | karan Johar   | SOTY2               |
+| 19 |        800 | XYZ           | YJHD                |
++----+------------+---------------+---------------------+
+
+deleted Data:
+Deleted SOTY2
+mysql> select * from spring_hibernate_movie;
++----+------------+---------------+---------------------+
+| id | collection | director_name | name                |
++----+------------+---------------+---------------------+
+| 14 |        200 | Rohit Shetty  | Golmaal             |
+| 15 |        300 | Rohit Shetty  | Singham             |
+| 16 |        400 | Karan Johar   | K3G                 |
+| 17 |        500 | Karan Johar   | Student of the year |
+| 19 |        800 | XYZ           | YJHD                |
++----+------------+---------------+---------------------+
