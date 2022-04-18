@@ -1,0 +1,1 @@
+I have Created A simple Maven Project and Added Junit dependency 
